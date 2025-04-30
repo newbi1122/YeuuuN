@@ -57,6 +57,11 @@ body {
     top: 150px;
     left: 43%;
   }
+.Nhandan1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
 @media screen and (max-width: 768px) {
   .khung-bo-tron {
     width: 90%;  /* Giảm chiều rộng của khung để phù hợp với màn hình nhỏ */
@@ -78,8 +83,3 @@ body {
   }
 }
 
-.Nhandan1{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-  }
