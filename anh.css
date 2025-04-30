@@ -121,3 +121,46 @@ body{
     font-size: 20px;
     background-color: #f0f8ff;
 }
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;  /* Tối ưu kích thước container cho thiết bị di động */
+        height: auto;
+    }
+
+    .main {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .listimg {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .listimg div {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .control {
+        font-size: 50px;
+        top: 45%;
+    }
+
+    .letter {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 200px;
+    }
+
+    .replacement {
+        width: 90%;  /* Giảm chiều rộng của replacement cho màn hình nhỏ */
+        margin: 20px auto;
+    }
+
+    .N {
+        width: 100%;
+        font-size: 18px;
+    }
+}
