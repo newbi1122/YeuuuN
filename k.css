@@ -57,6 +57,27 @@ body {
     top: 150px;
     left: 43%;
   }
+@media screen and (max-width: 768px) {
+  .khung-bo-tron {
+    width: 90%;  /* Giảm chiều rộng của khung để phù hợp với màn hình nhỏ */
+    padding: 50px 20px;  /* Điều chỉnh padding */
+  }
+
+  .Khungnhap {
+    width: 100%;  /* Đảm bảo ô nhập liệu chiếm toàn bộ chiều rộng */
+  }
+
+  .nut {
+    width: 100%;  /* Nút chiếm toàn bộ chiều rộng của khung */
+    left: 0;  /* Căn giữa nút */
+  }
+
+  .Nhandan1 {
+    width: 100px;  /* Giảm kích thước ảnh trên màn hình nhỏ */
+    height: 100px;
+  }
+}
+
 .Nhandan1{
     position: absolute;
     width: 150px;
