@@ -1,0 +1,40 @@
+.back{
+    background-color: rgb(108, 184, 255);
+}
+.letter{
+    color: rgb(251, 131, 205)
+}
+.letter img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.letter img:hover {
+    transform: scale(1.1);
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.replacement{
+    background-color: #f0f8ff;        
+    font-family: 'Georgia', serif;   
+    font-size: 20px;                  
+    color: #333;                    
+
+    border: 2px solid #0077cc;        
+    border-radius: 10px;              
+    padding: 20px;                    
+    max-width: 700px;                 
+    margin: 20px auto;                
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: none;
+    animation: fadeInUp 0.7s ease forwards;
+}

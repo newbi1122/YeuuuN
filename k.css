@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6cb8ff;
+  }
+.khung-bo-tron {
+    position: relative; /* thêm cái này để chữ nằm đúng trong khung */
+    border: 1px solid rgb(46, 161, 249);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    padding: 135px 50px; 
+    width: 350px;
+    background-color: #99CDFF;
+    text-align: center;
+  }
+.chuB {
+    position: absolute;
+    font-weight: bold;
+    color: rgb(251, 131, 205);
+    top: 19px; 
+    left: 1%;
+    font-size: 25px;
+  }
+.chuN{
+    position: absolute;
+    color: rgb(251, 131, 205);
+    top: 70px;
+    left: 5%;
+    font-size: 19px;
+  }
+.Khungnhap{ 
+    padding: 5px;
+    width: 400px ; 
+    position: absolute;
+    border-radius: 5px; 
+    border: 1px solid #f89af4;
+    top: 90px;
+    left: 5%;
+  }
+.chunho{
+    position: absolute;
+    color: rgb(144, 144, 144);
+    top: 120px;
+    left: 5.5%;
+    font-size: 10px;
+  }
+.nut{
+    position: absolute;
+    padding: 10px;
+    background-color: #86c4ff;
+    border-radius: 10px;
+    border: 0.5px solid #fba4f7;
+    color: #f068e9;
+    top: 150px;
+    left: 43%;
+  }
+.Nhandan1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
